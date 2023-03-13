@@ -1,15 +1,15 @@
-import { ColorModeContext, useMode } from "./theme";
+import { useMode } from "./theme";
 import { CssBaseline, ThemeProvider } from "@mui/material";
 import ModeTest from "./scene/test";
+import Header from "./scene/global/header";
 function App() {
   const [theme, colorMode] = useMode();
   return (
-    <ColorModeContext.Provider value={colorMode}>
-      <ThemeProvider theme={theme}>
-        <CssBaseline />
-        <ModeTest />
-      </ThemeProvider>
-    </ColorModeContext.Provider>
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <Header />
+      <ModeTest />
+    </ThemeProvider>
   );
 }
 

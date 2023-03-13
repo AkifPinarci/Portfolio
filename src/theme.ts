@@ -1,8 +1,9 @@
 import { createContext, useState, useMemo } from "react";
 import { createTheme } from "@mui/material/styles";
+import { useAppSelector } from "./app/hooks";
 
 // color design tokens export
-export const tokens = (mode: any) => ({
+export const tokens = (mode: string) => ({
   ...(mode === "dark"
     ? {
         grey: {
@@ -77,7 +78,7 @@ export const tokens = (mode: any) => ({
           100: "#040509",
           200: "#080b12",
           300: "#0c101b",
-          400: "#f2f0f0", // manually changed
+          400: "#f2f0f0",
           500: "#141b2d",
           600: "#1F2A40",
           700: "#727681",
@@ -193,18 +194,11 @@ export const themeSettings = (mode: any) => {
   };
 };
 
-// context for color mode
-export const ColorModeContext = createContext({
-  toggleColorMode: () => {},
-});
-
 export const useMode = (): any => {
-  const [mode, setMode] = useState("dark");
-
+  const mode = useAppSelector((state) => state.color.mode);
   const colorMode = useMemo(
     () => ({
-      toggleColorMode: () =>
-        setMode((prev) => (prev === "light" ? "dark" : "light")),
+      toggleColorMode: () => (prev: any) => prev === "light" ? "dark" : "light",
     }),
     []
   );
