@@ -1,0 +1,87 @@
+const portfolioData = [
+  {
+    title: "Full-Stack Software Engineer",
+    company: "Streamer Pro",
+    link: "",
+    tasks: ["● Building internal applications using React.js, Node.js"],
+    skills:
+      "Skills: TypeScript · JavaScript · React.js · Node.js · TypeScript · Git · Cascading Style Sheets (CSS) · Socket.io · Kanban",
+    dateBegin: "Aug 2022",
+    dateEnd: "Present",
+    present: false,
+    summary: "Building internal applications using React.js, Node.js",
+  },
+  {
+    title: "Software Engineer Internship",
+    company: "Hotspot Lunch Startup",
+    link: "",
+    tasks: [
+      "● Designed the API endpoints and CRUD operations for the mobile application's use.",
+      "● Implemented the payment system of the application with Stripe to support 2-way transactions.",
+      "● Developed an app utilizing React.js to create an interactive map and customer service for end-user.",
+    ],
+    skills:
+      "Skills: JavaScript · React.js · Node.js · Express.js · REST APIs · Redux",
+    dateBegin: "Dec 2021",
+    dateEnd: "Jul 2022",
+    present: false,
+    summary: "Build application for a food delivery startup.",
+  },
+  {
+    title: "Full Stack Software Engineer",
+    company: "Academic",
+    link: "https://github.com/AkifPinarci/MessaginApp-Flutter",
+    tasks: [
+      "● Developed a messaging app that features a real-time chat between users that supports group and individual chats.",
+      "● Integrated Firebase authentication and Firebase real-time database into the application to optimize backend logic.",
+    ],
+    skills: "Skills: Firebase · Flutter · Dart",
+    dateBegin: "Jan 2022",
+    dateEnd: "Feb 2022",
+    present: true,
+    summary: "A massagin a which supports individual and group chats.",
+  },
+  {
+    title: "Full Stack Software Engineer",
+    company: "Academic",
+    link: "https://github.com/CS3560-03-04/BillingSubsystem",
+    tasks: [
+      "● Implemented billing subsystem for a tech company to utilize Object Oriented Desing.",
+      "● Designed and normalized MySQL database and used Swing GUI on the front end.",
+      "● Obtained team-leading experience including a professional and 4 students.",
+    ],
+    skills: "Skills: Java · Java Swing · MySQL",
+    dateBegin: "Aug 2021",
+    dateEnd: "Dec 2021",
+    present: true,
+    summary: "A billing system for a anti-virus company.",
+  },
+  {
+    title: "Software Engineer",
+    company: "Freelance",
+    link: "",
+    tasks: [
+      "● Automated amazon listings by using selenium to shorten the listing time.",
+      "● Created an excel table by finding the item's Amazon Standard Identification Number on Amazon and fetching the item’s Stock Keeping Unit code to the excel table, then completed item listings by the generated excel table.",
+      "● Decreased the processing time for listing 10.000+ products from 2 days to 1 hour.",
+    ],
+    skills: "Skills: Python (Programming Language) · Selenium",
+    dateBegin: "Aug 2020",
+    dateEnd: "Sep 2020",
+    present: false,
+    summary: "An amazon tool for an amazon seller.",
+  },
+  {
+    title: "Software Engineer",
+    company: "Academic",
+    link: "https://github.com/AkifPinarci/raytracer",
+    tasks: ["● Created basic raytracer utilizing Processing."],
+    skills: "Skills: Processing, Java",
+    dateBegin: "Aug 2022",
+    dateEnd: "Dec 2022",
+    present: true,
+    summary: "Basic raytracer which render 3D object on a 2D raster.",
+  },
+];
+
+export default portfolioData;
