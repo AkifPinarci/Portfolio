@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cf26a0d6.css",
+    "main.js": "/static/js/main.95282d57.js",
+    "static/media/MehmetAkifPinarci.pdf": "/static/media/MehmetAkifPinarci.3c980087b0532a3fcbbc.pdf",
+    "static/media/noFrameLogo.png": "/static/media/noFrameLogo.13ebc9933e9970bf9e1c.png",
+    "index.html": "/index.html",
+    "main.cf26a0d6.css.map": "/static/css/main.cf26a0d6.css.map",
+    "main.95282d57.js.map": "/static/js/main.95282d57.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf26a0d6.css",
+    "static/js/main.95282d57.js"
+  ]
+}
